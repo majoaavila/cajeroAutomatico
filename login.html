@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="src/loginStyle.css">
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+    <title>bitz.</title>
+    <!-- js -->
+    <script defer src="user.js"></script>
+    <script defer src="login.js"></script>
+</head>
+
+<body>
+    <!-- contenedor principal -->
+    <div class="loginContainer">
+        <!-- contenedor barra nav -->
+        <nav id="navHeader">
+            <div id="logo">
+                <img src="src/img/bitz-logo-png.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">¿Quiénes somos?</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="infoContainer">
+            <div class="info">
+                <h1>Cuidamos de ti y de tu futuro,
+                    <h1>porque te importa y porque nos importas.</h1>
+                    <br>
+                    <h2>Somos tu banco.</h2>
+                    <h2>Somos tu mejor opción.</h2>
+            </div>
+        </div>
+        <!-- formulario -->
+        <div class="formContainer">
+            <div class="form">
+                <h2>Dale inicio a tu experiencia</h2>
+                <form action="#">
+                    <input type="text" name="email" id="emailInput" placeholder="Email">
+                    <input type="password" name="pass" id="passwordInput" placeholder="Contraseña">
+                    <input type="button" id="signInBtn" value="Inicia sesión">
+                    <h4>¿No tienes cuenta?</h4>
+                    <a href="#">Regístrate aquí</a>
+                </form>
+            </div>
+
+        </div>
+</body>
+
+</html>
