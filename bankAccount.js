@@ -72,7 +72,6 @@ function depositar() {
             title: 'Ingresa un monto'
         });
     }
-
 }
 
 //funcion que permite hacer un retiro de dinero a la cuenta

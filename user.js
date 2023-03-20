@@ -31,7 +31,19 @@ const userAccounts = [
         cardNumber: "5567 4320 5087 4532",
         cvv: "223",
         expiration: "No"
+    },
+
+    {
+        name: "Carlota Aguilar",
+        user: "crodriguez42@ucol.mx",
+        cash: 950,
+        password: "oli",
+        cardNumber: "5598 4008 5347 44672",
+        cvv: "312",
+        expiration: "No"
     }
+
+
 ];
 
 //singleton que usa el localstorage para traerse datos del usuario
