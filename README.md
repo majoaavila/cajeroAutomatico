@@ -1,5 +1,5 @@
-# Cajero Automático
-# Usuarios
+# Usuarios del cajero automático
+
 Email: mavila7@ucol.mx
 Contraseña: 1234
 
